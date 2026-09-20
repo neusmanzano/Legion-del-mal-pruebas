@@ -1,3 +1,13 @@
+![Estático](https://img.shields.io/badge/Legion--del--mal--pruebas-Activa-red)
+
+![Con logo](https://img.shields.io/badge/Git-2.45-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+![Workflow](https://img.shields.io/github/actions/workflow/status/neusmanzano/Legion-del-mal-pruebas/ci.yml)
+![Release](https://img.shields.io/github/v/release/neusmanzano/Legion-del-mal-pruebas)
+![Issues](https://img.shields.io/github/issues/neusmanzano/Legion-del-mal-pruebas)
+![Último commit](https://img.shields.io/github/neusmanzano/neusmanzano/Legion-del-mal-pruebas)
+![Licencia](https://img.shields.io/github/license/neusmanzano/Legion-del-mal-pruebas)
+
 # 🦹‍♂️ La Legión del Mal
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
