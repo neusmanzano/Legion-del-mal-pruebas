@@ -11,6 +11,7 @@
 # 🦹‍♂️ La Legión del Mal - Desde Local
 ## Repositorio de aprendizaje de GitHub
 Aquest és un canvi que faig a la nova branca NovaBrancaCanvi1 per practicar el fluxe habitual de treball per practicar sol
+Aquest és un canvi que faig a la nova branca NovaBrancaCanvi1 per practicar el fluxe habitual de treball per practicar sol 2
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador del equipo del mal
