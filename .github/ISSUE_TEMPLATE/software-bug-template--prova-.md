@@ -2,7 +2,7 @@
 name: Software bug template (prova)
 about: Help us become better.
 title: ''
-labels: bug, enhancement
+labels: bug, enhancement, Mejora de software
 assignees: neusmanzano
 type: Bug
 
