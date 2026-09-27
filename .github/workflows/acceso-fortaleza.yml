@@ -26,8 +26,8 @@ jobs:
                 echo "✔️ Ahora sí funciona!!!"
                 echo ""
                 echo "Villanos"
-                ls miembros
+                ls miembros/
                 echo "Inteligencia"
-                ls inteligencia
+                ls inteligencia/
                 echo "Planes:"
-                ls planes
+                ls planes/
