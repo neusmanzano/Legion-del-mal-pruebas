@@ -13,10 +13,10 @@ jobs:
             - name: Reporte de identidad
               run: |
                 echo "reporte de identidad"
-                echo: "==================="
-                echo: ""
+                echo "==================="
+                echo ""
                 echo "Nombre clave: ${{ github.actor }}"
-                echo: ""
+                echo ""
                 echo "Contexto de GitHub"
                 echo "Repositorio: ${{ github.repository }}"
                 echo "Operación: ${{ github.sha }}"
