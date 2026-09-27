@@ -21,3 +21,18 @@ jobs:
                 echo "Repositorio: ${{ github.repository }}"
                 echo "Operación: ${{ github.sha }}"
                 echo "Metadata: ${{ toJson(github) }}"
+
+            - name: Capacidades del Agente
+              run: |
+                echo "Capacidades detectadas:"
+                echo "Sistema operativo"
+                uname -a
+                echo "Habilidades técnicas"
+                node --version
+                git --version
+                python3 --version
+
+            - name: Reconociemiento del terreno
+              run: |
+                echo "Reconocimiento del terreno"
+                ls /
