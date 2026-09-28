@@ -19,6 +19,17 @@ on:
         required: true
         default: "La misión fue un éxito"
 
+      cawcaracters:
+        description: "imagen del mensaje"
+        required: true
+        default: "imagen del caw"
+        type: choice
+        options:
+          - eyes
+          - ghostbusters
+          - dragon
+          - fox
+          - king
 
       prioridad:
         description: "¿Qué villano  envia el mensaje?"
@@ -51,10 +62,11 @@ jobs:
           echo ""
           echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
           echo "----- Mensaje -----"
-          cowsay -f eyes "${{ inputs.mensaje }}"
+          # cowsay -f eyes "${{ inputs.mensaje }}"
+          cowsay -f ${{ inputs.cawcaracters}}
           echo ""
           echo "--- ${{ inputs.villano }}"
-          echo ".............."
+          echo " ......"
 
       #- name: Imprimir inputs
         #run: |
