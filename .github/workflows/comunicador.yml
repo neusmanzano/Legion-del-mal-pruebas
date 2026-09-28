@@ -29,7 +29,7 @@ on:
           - ghostbusters
           - dragon
           - fox
-          - king
+          - kitten
 
       prioridad:
         description: "¿Qué villano  envia el mensaje?"
