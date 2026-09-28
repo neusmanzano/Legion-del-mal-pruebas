@@ -1,6 +1,6 @@
 name: Acceso a la for taleza ⛰️
 
-on: push
+#on: push
 
 jobs:
     acceso-a-la-fortaleza:
