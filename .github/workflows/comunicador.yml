@@ -40,7 +40,7 @@ jobs:
       - name: Imprimir inputs.
         run: |
           echo "Inputs: "
-          echo: ""
+          echo ""
           echo "villano ${{ inputs.villano}}"
           echo "nivel ${{ inputs.prioridad}}"
           echo "mensaje ${{ inputs.mensaje}}"
