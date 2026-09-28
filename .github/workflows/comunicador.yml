@@ -6,13 +6,29 @@ on:
   workflow_dispatch:
     inputs:
       villano:
-        description: ¿Qué villano  envia el mensaje?
+        description: "¿Qué villano  envia el mensaje?"
         required: true
         type: choice
         options: 
           - Lex Luthor
           - Magneto
           - Jocker
+      
+      mensaje:
+        description: "mensaje para el consejo" 
+        required: true
+        default: "La misión fue un éxito"
+
+
+      prioridad:
+        description: "¿Qué villano  envia el mensaje?"
+        required: true
+        type: choice
+        options: 
+          - 🔵 Baja
+          - 🟢 Media
+          - 🔴 Alta
+
 
 jobs:
 
@@ -21,4 +37,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Imprimir inputs.
+        run: |
+          echo "Inputs: "
+          echo: ""
+          echo "villano ${{ inputs.villano}}"
+          echo "nivel ${{ inputs.prioridad}}"
+          echo "mensaje ${{ inputs.mensaje}}"
