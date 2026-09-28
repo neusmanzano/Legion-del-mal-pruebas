@@ -54,7 +54,7 @@ jobs:
           cowsay -f eyes "${{ inputs.mensaje }}"
           echo ""
           echo "--- ${{ inputs.villano }}"
-          echo "...."
+          echo "........."
 
       #- name: Imprimir inputs
         #run: |
