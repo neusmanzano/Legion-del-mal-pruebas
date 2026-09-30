@@ -1,33 +1,33 @@
-name: Acceso a la for taleza ⛰️
+# name: Acceso a la for taleza ⛰️
 
-#on: push
+# #on: push
 
-jobs:
-    acceso-a-la-fortaleza:
-        runs-on: ubuntu-latest
+# jobs:
+#     acceso-a-la-fortaleza:
+#         runs-on: ubuntu-latest
 
-        steps:
-            - name: El Agente llega ala fortaleza
-              run: |
-                echo "Agente: ${{ github.actor }} llega a la fortaleza"
-                echo ""
-                echo "Buscar los archivos de la legión"
-                ls -la
-                echo ""
-                echo "❌ pero que pasó? no hay nada"
+#         steps:
+#             - name: El Agente llega ala fortaleza
+#               run: |
+#                 echo "Agente: ${{ github.actor }} llega a la fortaleza"
+#                 echo ""
+#                 echo "Buscar los archivos de la legión"
+#                 ls -la
+#                 echo ""
+#                 echo "❌ pero que pasó? no hay nada"
 
-            - name: Brainac desbloquea la boveda"
-              uses: actions/checkout@v4
+#             - name: Brainac desbloquea la boveda"
+#               uses: actions/checkout@v4
               
-            - name: "ahora sí vamos a ver los planes"
-              run: |
-                echo "Buscar los archivos de la legión"
-                ls -la
-                echo "✔️ Ahora sí funciona!!!"
-                echo ""
-                echo "Villanos"
-                ls miembros/
-                echo "Inteligencia"
-                ls inteligencia/
-                echo "Planes:"
-                ls planes/
+#             - name: "ahora sí vamos a ver los planes"
+#               run: |
+#                 echo "Buscar los archivos de la legión"
+#                 ls -la
+#                 echo "✔️ Ahora sí funciona!!!"
+#                 echo ""
+#                 echo "Villanos"
+#                 ls miembros/
+#                 echo "Inteligencia"
+#                 ls inteligencia/
+#                 echo "Planes:"
+#                 ls planes/

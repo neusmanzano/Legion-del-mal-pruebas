@@ -1,41 +1,41 @@
-name: Reclutamiento de Agente
+# name: Reclutamiento de Agente
 
-#on: push
+# #on: push
 
-on:
-    workflow_dispatch:
+# on:
+#     workflow_dispatch:
 
-jobs:
-    reporte-de-reclutamiento:
-        runs-on: ubuntu-latest
+# jobs:
+#     reporte-de-reclutamiento:
+#         runs-on: ubuntu-latest
 
-        steps:
-            - name: El Agente se presenta
-              run: echo "Soy Lex Luthor líder de la legión de mal"
+#         steps:
+#             - name: El Agente se presenta
+#               run: echo "Soy Lex Luthor líder de la legión de mal"
 
-            - name: Reporte de identidad
-              run: |
-                echo "reporte de identidad"
-                echo "==================="
-                echo ""
-                echo "Nombre clave: ${{ github.actor }}"
-                echo ""
-                echo "Contexto de GitHub"
-                echo "Repositorio: ${{ github.repository }}"
-                echo "Operación: ${{ github.sha }}"
-                echo "Metadata: ${{ toJson(github) }}"
+#             - name: Reporte de identidad
+#               run: |
+#                 echo "reporte de identidad"
+#                 echo "==================="
+#                 echo ""
+#                 echo "Nombre clave: ${{ github.actor }}"
+#                 echo ""
+#                 echo "Contexto de GitHub"
+#                 echo "Repositorio: ${{ github.repository }}"
+#                 echo "Operación: ${{ github.sha }}"
+#                 echo "Metadata: ${{ toJson(github) }}"
 
-            - name: Capacidades del Agente
-              run: |
-                echo "Capacidades detectadas:"
-                echo "Sistema operativo"
-                uname -a
-                echo "Habilidades técnicas"
-                node --version
-                git --version
-                python3 --version
+#             - name: Capacidades del Agente
+#               run: |
+#                 echo "Capacidades detectadas:"
+#                 echo "Sistema operativo"
+#                 uname -a
+#                 echo "Habilidades técnicas"
+#                 node --version
+#                 git --version
+#                 python3 --version
 
-            - name: Reconociemiento del terreno
-              run: |
-                echo "Reconocimiento del terreno"
-                ls /
+#             - name: Reconociemiento del terreno
+#               run: |
+#                 echo "Reconocimiento del terreno"
+#                 ls /
