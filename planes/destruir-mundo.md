@@ -9,3 +9,9 @@ Estos son los planes para destruir el mundo:
 4. Manipular el clima global para causar desastres naturales a gran escala, como huracanes, terremotos y tsunamis.
 5. Controlar los recursos esenciales como el agua y los alimentos, creando escasez y caos en la población mundial.
 6. Difundir propaganda y desinformación para sembrar el miedo y la desconfianza entre las naciones, debilitando la cooperación internacional.
+
+## Plan de escape
+
+- **Si el clon es descubierto:** activar autodestrucción del clon (se desintegra en 60 segundos)
+- **Si Superman escapa de la celda:** evacuación inmediata de la Fortaleza Prohibida. Magneto y Doctor Doom contienen a Superman mientras el resto escapa.
+- **Si el clon se rebela:** ... Brainiac dice que el chip de control funcionará. Lex Luthor no está tan seguro.
