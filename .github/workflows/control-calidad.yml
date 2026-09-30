@@ -17,5 +17,5 @@ jobs:
             
             - name: El consejo revisa los cambios
               run: |
-                chmod + x scripts/validar-planes.sh
+                chmod +x scripts/validar-planes.sh
                 ./scripts/valisar-planes.sh
