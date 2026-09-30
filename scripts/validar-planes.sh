@@ -78,8 +78,8 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "📋 Verificando fichas de villanos..."
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-if ls villanos/*.yml 1>/dev/null 2>&1; then
-  for ficha in villanos/*.yml; do
+if ls miembros/*.yml 1>/dev/null 2>&1; then
+  for ficha in miembros/*.yml; do
     NOMBRE=$(grep "^nombre:" "$ficha" | head -1 | sed 's/nombre: *//;s/"//g')
     if [ -z "$NOMBRE" ]; then
       NOMBRE=$(basename "$ficha" .yml)
@@ -106,11 +106,11 @@ echo "━━━━━━━━━━━━━━━━━━━━━━━━�
 echo "📋 Verificando inteligencia sobre héroes..."
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
-if ls inteligencia/*.md 1>/dev/null 2>&1; then
-  TOTAL_EXPEDIENTES=$(ls inteligencia/*.md | wc -l)
+if ls inteligencia/perdedores/*.md 1>/dev/null 2>&1; then
+  TOTAL_EXPEDIENTES=$(ls inteligencia/perdedores/*.md | wc -l)
   echo "  📁 $TOTAL_EXPEDIENTES expedientes de héroes en la base de datos."
 
-  for expediente in inteligencia/*.md; do
+  for expediente in inteligencia/perdedores/*.md; do
     HEROE=$(basename "$expediente" .md)
     if ! grep -q "## Estrategia recomendada" "$expediente"; then
       echo "  ⚠️  $HEROE — Falta la estrategia recomendada."
@@ -121,7 +121,7 @@ if ls inteligencia/*.md 1>/dev/null 2>&1; then
     fi
   done
 else
-  echo "  ⚠️  No se encontraron expedientes en inteligencia/"
+  echo "  ⚠️  No se encontraron expedientes en inteligencia/perdedores"
   AVISOS=$((AVISOS + 1))
 fi
 

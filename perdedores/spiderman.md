@@ -55,3 +55,5 @@ La seva frase més coneguda és: **«Un gran poder comporta una gran responsabil
 - Harry Osborn ❤️ Mary Jane Watson — hi ha una relació/interès romàntic en determinats moments de la trilogia original.
 - Norman Osborn ❤️ Martha Osborn — matrimoni/família Osborn, esmentat dins la història.
 
+## Estrategia
+
